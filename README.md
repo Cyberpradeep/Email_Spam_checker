@@ -1,56 +1,73 @@
-# 📧 Spam Email Detection using Machine Learning (TF-IDF + SVM)
+# 📧 Spam Email Detection App
 
-This project is a machine learning-based spam detection system that classifies email or SMS messages as either **Spam** or **Not Spam**. It uses a **TF-IDF vectorizer** for feature extraction and a **Support Vector Machine (SVM)** classifier for model training.
-
----
-
-## 📁 Dataset
-
-We use the **SMS Spam Collection** dataset from [Kaggle](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset).  
-Upload the dataset (`spam.csv`) to your Google Drive under:
-
-
-Dataset Columns:
-- `v1` → Label (ham or spam)
-- `v2` → Message text
+A simple and effective **Spam Detector** built with **Machine Learning** and deployed using **Streamlit**. This project is developed as part of the **RISE Internship** by **Tamizhan Skills**.
 
 ---
 
-## 🧠 Technologies Used
-
-| Tool              | Purpose                         |
-|-------------------|----------------------------------|
-| Python            | Programming Language             |
-| Google Colab      | Notebook Environment             |
-| Pandas            | Data loading and processing      |
-| NLTK              | Text cleaning & stopword removal |
-| TF-IDF Vectorizer | Convert text to numerical format |
-| SVM (LinearSVC)   | Classification Algorithm         |
-| Scikit-learn      | ML tools and metrics             |
+## 🚀 Live Demo
+🔗 [[Click to Try the App](https://huggingface.co/spaces/Prap017/Email_Spam_Detection)]
 
 ---
 
-## 🪜 Project Steps
+## 📌 Features
 
-1. **Mount Google Drive** to access dataset and save model
-2. **Load and clean** the dataset (`spam.csv`)
-3. **Preprocess text** using regex and stopword removal
-4. **Convert messages to TF-IDF vectors**
-5. **Train SVM** model on the TF-IDF features
-6. **Evaluate** accuracy, precision, recall
-7. **Predict custom messages**
-8. **Save model & vectorizer** back to Drive
+- Detects whether a message is **Spam or Not**
+- Real-time prediction in your browser
+- Model built using:
+  - TF-IDF Vectorization
+  - Multinomial Naive Bayes
 
 ---
 
-## 🧪 Sample Prediction
+## 🧠 Tech Stack
 
-```python
-predict_spam("Congratulations! You have won a free ticket!")
-# Output: 🚫 SPAM
-```
+| Tool         | Use                            |
+|--------------|---------------------------------|
+| Python       | Programming                     |
+| Streamlit    | Web App Interface               |
+| Scikit-learn | ML Model (Naive Bayes)          |
+| Joblib       | Model Saving/Loading            |
+| Hugging Face | Free deployment via Spaces      |
 
-## 📊 Results
-Accuracy: ~98%
+---
 
-![Screenshot 2025-06-14 183424](https://github.com/user-attachments/assets/a8241ad6-1d12-4b9b-b780-16f83e8b8a2c)
+## 🗂 Project Structure
+
+├── streamlit_app.py
+├── requirements.txt
+└── src/
+├── fixed_spam_model.pkl
+└── fixed_tfidf_vectorizer.pkl
+
+
+---
+
+## 📚 How to Run
+
+1. Clone the repo:
+git clone https://github.com/your-username/spam-email-detector
+cd spam-email-detector
+
+
+2. Install dependencies:
+pip install -r requirements.txt
+
+
+3. Run the app:
+streamlit run src/streamlit_app.py
+
+
+---
+
+## 🧑‍🎓 Internship Credit
+
+This project is developed as part of the **RISE Internship Program** organized by **Tamizhan Skills**, focusing on real-world AI/ML projects using open tools and platforms.
+
+---
+
+## 📬 Contact
+
+- 📧 Email: pradeepnaveen930@gmail.com 
+- 🔗 LinkedIn: www.linkedin.com/in/pradeepselladurai
+
+---
