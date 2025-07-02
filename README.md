@@ -6,7 +6,6 @@ A simple and effective **Spam Detector** built with **Machine Learning** and dep
 
 ## 🚀 Live Demo
 🔗 [[Click to Try the App](https://huggingface.co/spaces/Prap017/Email_Spam_Detection)]
-
 ---
 
 ## 📌 Features
