@@ -45,7 +45,7 @@ A simple and effective **Spam Detector** built with **Machine Learning** and dep
 ## 📚 How to Run
 
 1. Clone the repo:
-git clone https://github.com/your-username/spam-email-detector
+git clone https://github.com/Cyberpradeep/Email_Spam_checker
 cd spam-email-detector
 
 
