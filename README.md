@@ -1,10 +1,10 @@
-# 📧 Spam Email Detection App
+#  Spam Email Detection App
 
 A simple and effective **Spam Detector** built with **Machine Learning** and deployed using **Streamlit**. This project is developed as part of the **RISE Internship** by **Tamizhan Skills**.
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 🔗 [[Click to Try the App](https://huggingface.co/spaces/Prap017/Email_Spam_Detection)]
 
 
@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/cca5517f-75c3-425b-acb5-7d5d6d2e11f1
 
 ---
 
-## 📌 Features
+##  Features
 
 - Detects whether a message is **Spam or Not**
 - Real-time prediction in your browser
@@ -28,7 +28,7 @@ https://github.com/user-attachments/assets/cca5517f-75c3-425b-acb5-7d5d6d2e11f1
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 | Tool         | Use                            |
 |--------------|---------------------------------|
@@ -40,7 +40,7 @@ https://github.com/user-attachments/assets/cca5517f-75c3-425b-acb5-7d5d6d2e11f1
 
 ---
 
-## 🗂 Project Structure
+##  Project Structure
 
 ├── streamlit_app.py
 ├── requirements.txt
@@ -51,7 +51,7 @@ https://github.com/user-attachments/assets/cca5517f-75c3-425b-acb5-7d5d6d2e11f1
 
 ---
 
-## 📚 How to Run
+##  How to Run
 
 1. Clone the repo:
 git clone https://github.com/Cyberpradeep/Email_Spam_checker
@@ -68,13 +68,13 @@ streamlit run src/streamlit_app.py
 
 ---
 
-## 🧑‍🎓 Internship Credit
+##  Internship Credit
 
 This project is developed as part of the **RISE Internship Program** organized by **Tamizhan Skills**, focusing on real-world AI/ML projects using open tools and platforms.
 
 ---
 
-## 📬 Contact
+##  Contact
 
 - 📧 Email: pradeepnaveen930@gmail.com 
 - 🔗 LinkedIn: www.linkedin.com/in/pradeepselladurai
