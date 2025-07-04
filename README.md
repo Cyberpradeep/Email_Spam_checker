@@ -67,6 +67,16 @@ streamlit run src/streamlit_app.py
 
 
 ---
+## Output Screenshots
+![image](https://github.com/user-attachments/assets/94cc0e23-e0a5-44c0-9bf1-d42886b67750)
+
+![image](https://github.com/user-attachments/assets/a93c5e74-1319-46b3-a453-a88d535e2dfe)
+
+
+![image](https://github.com/user-attachments/assets/e2220843-decc-4e96-a320-123aa7bae265)
+
+![image](https://github.com/user-attachments/assets/f4ab6d7a-d6c9-4c9c-8b98-4f352fc807b0)
+
 
 ##  Internship Credit
 
